@@ -1,0 +1,18 @@
+footer {
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    color: #fff;
+    font-size: 16px;
+}

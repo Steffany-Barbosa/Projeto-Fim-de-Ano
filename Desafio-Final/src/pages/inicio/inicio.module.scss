@@ -1,0 +1,17 @@
+.redeDoacao{
+    height: 75vh;
+    width: 100%;
+    background-image: url('../../assets/redeDoacao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 6%
+
+    h2{
+        font-size: 32px;
+        color: #fff;
+        width: 20%;
+    }
+
+}
