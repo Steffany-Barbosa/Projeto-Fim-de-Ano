@@ -1,18 +1,24 @@
-footer {
-    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+.footerIcon {
+    background: #005695;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
-}
-
-.footerIcons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-h2{
+    height: 15vh;
     color: #fff;
-    font-size: 16px;
+
+    nav{
+        width: 12%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+.copyrigth{
+    background-color: #232020;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    height: 8vh;
+    justify-content: center;
 }

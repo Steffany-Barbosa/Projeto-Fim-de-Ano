@@ -16,30 +16,14 @@ export default function Header() {
         </section>
         <nav className={s.navHeader}>
           <ul>
-            <li>
-              <Link className={s.link} to="/">
-                Inicio
-              </Link>
-            </li>
-            <li>
-              <Link className={s.link} to="/livrosDoados">
-                Livros doados
-              </Link>
-            </li>
-            <li>
-              <Link className={s.link} to="/queroDoar">
-                Quero Doar
-              </Link>
-            </li>
+            <li><Link className={s.link} to="/">Inicio</Link></li>
+            <li><Link className={s.link} to="/livrosDoados">Livros doados</Link></li>
+            <li><Link className={s.link} to="/queroDoar">Quero Doar</Link></li>
           </ul>
         </nav>
         <section className={s.barraDeBusca}>
-          <input
-            type="search"
-            name=""
-            id=""
-            placeholder="O que você procura?"
-          />
+
+          <input type="search"name=""id=""placeholder="O que você procura?"/>
           <button>
             <img src={lupa} alt="Img de uma lupa branca" />
           </button>

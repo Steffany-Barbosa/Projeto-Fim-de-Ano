@@ -1,49 +1,57 @@
-.redeDoacao{
-    height: 75vh;
-    width: 100%;
-    background-image: url('../../assets/redeDoacao.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 6%
+.redeDoacao {
+  height: 75vh;
+  width: 100%;
+  background-image: url("../../assets/redeDoacao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 6% ;
 
-    h2{
-        font-size: 32px;
-        color: #fff;
-        width: 20%;
-    }
-
+  h2{
+    font-size: 32px;
+    color: #fff;
+    width: 20%;
+  }
+  
 }
+
 
 .cardContainer {
-    border: solid red;
-    border-radius: 8px;
-    align-items: center;
-    justify-content: space-around;
-    gap: 16px;
+  align-items: center;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: space-around;
+  display: flex;
+
+  h2{
+    font-size: 40px;
+    color: #005695;
+    width: 90%;
+  }
+
+}
+
+.cardMotivos{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50vh;
+
+  section{
     display: flex;
-    margin: 20px;
-    
-    
+    width: 18%;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #0157944D;
 
     p{
-        font-size: 22px;
-        margin-top: 10%;
-        align-items: center;
+      font-size: 22px;
+      width: 80%;
+      align-items: center;
     }
-
+  }
 }
 
-.card{
-    width: 30%;
-    border: solid red;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: #0157944D;
-}
 
-.cardImage{
-    width: 15%;
-    height: auto;
-}
